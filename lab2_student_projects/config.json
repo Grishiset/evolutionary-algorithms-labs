@@ -1,0 +1,14 @@
+{
+  "_comment": "Базовая конфигурация ГА, ЛР2, вариант 8 (назначение студентов на проекты)",
+  "pop_size": 60,
+  "budget": 12000,
+  "tournament_k": 3,
+  "crossover": "uniform",
+  "p_crossover": 0.9,
+  "mutation": "mixed",
+  "mutation_lambda": 0.5,
+  "constraint": "repair",
+  "penalty": 50.0,
+  "init": "random",
+  "elite": 2
+}
