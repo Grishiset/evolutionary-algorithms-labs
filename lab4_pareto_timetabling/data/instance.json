@@ -1,0 +1,1241 @@
+{
+ "seed": 2026,
+ "days": [
+  "Пн",
+  "Вт",
+  "Ср",
+  "Чт",
+  "Пт"
+ ],
+ "periods": [
+  "09:00",
+  "10:40",
+  "12:20",
+  "14:00",
+  "15:40",
+  "17:20"
+ ],
+ "groups": [
+  {
+   "id": 0,
+   "name": "Б26-50",
+   "size": 27,
+   "stream": 0
+  },
+  {
+   "id": 1,
+   "name": "Б26-51",
+   "size": 21,
+   "stream": 0
+  },
+  {
+   "id": 2,
+   "name": "Б26-52",
+   "size": 20,
+   "stream": 0
+  },
+  {
+   "id": 3,
+   "name": "Б26-53",
+   "size": 25,
+   "stream": 0
+  },
+  {
+   "id": 4,
+   "name": "Б26-54",
+   "size": 23,
+   "stream": 1
+  },
+  {
+   "id": 5,
+   "name": "Б26-55",
+   "size": 24,
+   "stream": 1
+  },
+  {
+   "id": 6,
+   "name": "Б26-56",
+   "size": 20,
+   "stream": 1
+  },
+  {
+   "id": 7,
+   "name": "Б26-57",
+   "size": 23,
+   "stream": 1
+  }
+ ],
+ "teachers": [
+  {
+   "id": 0,
+   "name": "Лектор Матанализ",
+   "role": "lecturer",
+   "unavailable": [
+    9,
+    20,
+    22,
+    27,
+    29
+   ],
+   "preferred_days": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": 1,
+   "name": "Лектор Алгоритмы",
+   "role": "lecturer",
+   "unavailable": [
+    7,
+    17,
+    18,
+    22,
+    23,
+    28
+   ],
+   "preferred_days": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Лектор Физика",
+   "role": "lecturer",
+   "unavailable": [
+    4,
+    6,
+    7
+   ],
+   "preferred_days": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Лектор Теория вероятностей",
+   "role": "lecturer",
+   "unavailable": [
+    0,
+    12,
+    13,
+    21,
+    29
+   ],
+   "preferred_days": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Семинарист 1",
+   "role": "seminar",
+   "unavailable": [
+    5,
+    7,
+    26,
+    27,
+    29
+   ],
+   "preferred_days": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Семинарист 2",
+   "role": "seminar",
+   "unavailable": [
+    12,
+    14,
+    16,
+    19,
+    27,
+    28
+   ],
+   "preferred_days": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Семинарист 3",
+   "role": "seminar",
+   "unavailable": [
+    6,
+    12,
+    19
+   ],
+   "preferred_days": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Семинарист 4",
+   "role": "seminar",
+   "unavailable": [
+    4,
+    21,
+    29
+   ],
+   "preferred_days": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Семинарист 5",
+   "role": "seminar",
+   "unavailable": [
+    11,
+    14,
+    20,
+    25
+   ],
+   "preferred_days": [
+    2,
+    3
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Семинарист 6",
+   "role": "seminar",
+   "unavailable": [
+    0,
+    1,
+    21,
+    23
+   ],
+   "preferred_days": [
+    1,
+    3
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Лаборант 1",
+   "role": "lab",
+   "unavailable": [
+    2,
+    4,
+    13,
+    26
+   ],
+   "preferred_days": [
+    1,
+    4
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Лаборант 2",
+   "role": "lab",
+   "unavailable": [
+    8,
+    10,
+    16,
+    18,
+    19
+   ],
+   "preferred_days": [
+    3,
+    4
+   ]
+  }
+ ],
+ "rooms": [
+  {
+   "id": 0,
+   "name": "Ауд. 100 (поточная)",
+   "capacity": 120,
+   "lab": false
+  },
+  {
+   "id": 1,
+   "name": "Ауд. 200 (поточная)",
+   "capacity": 110,
+   "lab": false
+  },
+  {
+   "id": 2,
+   "name": "Ауд. 301",
+   "capacity": 60,
+   "lab": false
+  },
+  {
+   "id": 3,
+   "name": "Ауд. 302",
+   "capacity": 35,
+   "lab": false
+  },
+  {
+   "id": 4,
+   "name": "Ауд. 303",
+   "capacity": 32,
+   "lab": false
+  },
+  {
+   "id": 5,
+   "name": "Ауд. 304",
+   "capacity": 30,
+   "lab": false
+  },
+  {
+   "id": 6,
+   "name": "Ауд. 305",
+   "capacity": 30,
+   "lab": false
+  },
+  {
+   "id": 7,
+   "name": "Лаб. 1",
+   "capacity": 30,
+   "lab": true
+  },
+  {
+   "id": 8,
+   "name": "Лаб. 2",
+   "capacity": 30,
+   "lab": true
+  }
+ ],
+ "events": [
+  {
+   "id": 0,
+   "kind": "лекция",
+   "title": "Матанализ",
+   "groups": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "teacher": 0,
+   "size": 93,
+   "lab": false
+  },
+  {
+   "id": 1,
+   "kind": "лекция",
+   "title": "Матанализ",
+   "groups": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "teacher": 0,
+   "size": 93,
+   "lab": false
+  },
+  {
+   "id": 2,
+   "kind": "лекция",
+   "title": "Алгоритмы",
+   "groups": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "teacher": 1,
+   "size": 93,
+   "lab": false
+  },
+  {
+   "id": 3,
+   "kind": "лекция",
+   "title": "Алгоритмы",
+   "groups": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "teacher": 1,
+   "size": 93,
+   "lab": false
+  },
+  {
+   "id": 4,
+   "kind": "лекция",
+   "title": "Физика",
+   "groups": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "teacher": 2,
+   "size": 93,
+   "lab": false
+  },
+  {
+   "id": 5,
+   "kind": "лекция",
+   "title": "Физика",
+   "groups": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "teacher": 2,
+   "size": 93,
+   "lab": false
+  },
+  {
+   "id": 6,
+   "kind": "лекция",
+   "title": "Теория вероятностей",
+   "groups": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "teacher": 3,
+   "size": 93,
+   "lab": false
+  },
+  {
+   "id": 7,
+   "kind": "лекция",
+   "title": "Теория вероятностей",
+   "groups": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "teacher": 3,
+   "size": 93,
+   "lab": false
+  },
+  {
+   "id": 8,
+   "kind": "лекция",
+   "title": "Матанализ",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "teacher": 0,
+   "size": 90,
+   "lab": false
+  },
+  {
+   "id": 9,
+   "kind": "лекция",
+   "title": "Матанализ",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "teacher": 0,
+   "size": 90,
+   "lab": false
+  },
+  {
+   "id": 10,
+   "kind": "лекция",
+   "title": "Алгоритмы",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "teacher": 1,
+   "size": 90,
+   "lab": false
+  },
+  {
+   "id": 11,
+   "kind": "лекция",
+   "title": "Алгоритмы",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "teacher": 1,
+   "size": 90,
+   "lab": false
+  },
+  {
+   "id": 12,
+   "kind": "лекция",
+   "title": "Физика",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "teacher": 2,
+   "size": 90,
+   "lab": false
+  },
+  {
+   "id": 13,
+   "kind": "лекция",
+   "title": "Физика",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "teacher": 2,
+   "size": 90,
+   "lab": false
+  },
+  {
+   "id": 14,
+   "kind": "лекция",
+   "title": "Теория вероятностей",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "teacher": 3,
+   "size": 90,
+   "lab": false
+  },
+  {
+   "id": 15,
+   "kind": "лекция",
+   "title": "Теория вероятностей",
+   "groups": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "teacher": 3,
+   "size": 90,
+   "lab": false
+  },
+  {
+   "id": 16,
+   "kind": "семинар",
+   "title": "Матанализ",
+   "groups": [
+    0
+   ],
+   "teacher": 9,
+   "size": 27,
+   "lab": false
+  },
+  {
+   "id": 17,
+   "kind": "семинар",
+   "title": "Алгоритмы",
+   "groups": [
+    0
+   ],
+   "teacher": 7,
+   "size": 27,
+   "lab": false
+  },
+  {
+   "id": 18,
+   "kind": "семинар",
+   "title": "Физика",
+   "groups": [
+    0
+   ],
+   "teacher": 5,
+   "size": 27,
+   "lab": false
+  },
+  {
+   "id": 19,
+   "kind": "семинар",
+   "title": "Теория вероятностей",
+   "groups": [
+    0
+   ],
+   "teacher": 4,
+   "size": 27,
+   "lab": false
+  },
+  {
+   "id": 20,
+   "kind": "семинар",
+   "title": "Программирование",
+   "groups": [
+    0
+   ],
+   "teacher": 4,
+   "size": 27,
+   "lab": false
+  },
+  {
+   "id": 21,
+   "kind": "семинар",
+   "title": "Английский",
+   "groups": [
+    0
+   ],
+   "teacher": 9,
+   "size": 27,
+   "lab": false
+  },
+  {
+   "id": 22,
+   "kind": "лабораторная",
+   "title": "Физпрактикум",
+   "groups": [
+    0
+   ],
+   "teacher": 10,
+   "size": 27,
+   "lab": true
+  },
+  {
+   "id": 23,
+   "kind": "лабораторная",
+   "title": "Практикум по электронике",
+   "groups": [
+    0
+   ],
+   "teacher": 11,
+   "size": 27,
+   "lab": true
+  },
+  {
+   "id": 24,
+   "kind": "семинар",
+   "title": "Матанализ",
+   "groups": [
+    1
+   ],
+   "teacher": 5,
+   "size": 21,
+   "lab": false
+  },
+  {
+   "id": 25,
+   "kind": "семинар",
+   "title": "Алгоритмы",
+   "groups": [
+    1
+   ],
+   "teacher": 4,
+   "size": 21,
+   "lab": false
+  },
+  {
+   "id": 26,
+   "kind": "семинар",
+   "title": "Физика",
+   "groups": [
+    1
+   ],
+   "teacher": 4,
+   "size": 21,
+   "lab": false
+  },
+  {
+   "id": 27,
+   "kind": "семинар",
+   "title": "Теория вероятностей",
+   "groups": [
+    1
+   ],
+   "teacher": 5,
+   "size": 21,
+   "lab": false
+  },
+  {
+   "id": 28,
+   "kind": "семинар",
+   "title": "Программирование",
+   "groups": [
+    1
+   ],
+   "teacher": 9,
+   "size": 21,
+   "lab": false
+  },
+  {
+   "id": 29,
+   "kind": "семинар",
+   "title": "Английский",
+   "groups": [
+    1
+   ],
+   "teacher": 5,
+   "size": 21,
+   "lab": false
+  },
+  {
+   "id": 30,
+   "kind": "лабораторная",
+   "title": "Физпрактикум",
+   "groups": [
+    1
+   ],
+   "teacher": 10,
+   "size": 21,
+   "lab": true
+  },
+  {
+   "id": 31,
+   "kind": "лабораторная",
+   "title": "Практикум по электронике",
+   "groups": [
+    1
+   ],
+   "teacher": 11,
+   "size": 21,
+   "lab": true
+  },
+  {
+   "id": 32,
+   "kind": "семинар",
+   "title": "Матанализ",
+   "groups": [
+    2
+   ],
+   "teacher": 4,
+   "size": 20,
+   "lab": false
+  },
+  {
+   "id": 33,
+   "kind": "семинар",
+   "title": "Алгоритмы",
+   "groups": [
+    2
+   ],
+   "teacher": 8,
+   "size": 20,
+   "lab": false
+  },
+  {
+   "id": 34,
+   "kind": "семинар",
+   "title": "Физика",
+   "groups": [
+    2
+   ],
+   "teacher": 4,
+   "size": 20,
+   "lab": false
+  },
+  {
+   "id": 35,
+   "kind": "семинар",
+   "title": "Теория вероятностей",
+   "groups": [
+    2
+   ],
+   "teacher": 6,
+   "size": 20,
+   "lab": false
+  },
+  {
+   "id": 36,
+   "kind": "семинар",
+   "title": "Программирование",
+   "groups": [
+    2
+   ],
+   "teacher": 4,
+   "size": 20,
+   "lab": false
+  },
+  {
+   "id": 37,
+   "kind": "семинар",
+   "title": "Английский",
+   "groups": [
+    2
+   ],
+   "teacher": 4,
+   "size": 20,
+   "lab": false
+  },
+  {
+   "id": 38,
+   "kind": "лабораторная",
+   "title": "Физпрактикум",
+   "groups": [
+    2
+   ],
+   "teacher": 10,
+   "size": 20,
+   "lab": true
+  },
+  {
+   "id": 39,
+   "kind": "лабораторная",
+   "title": "Практикум по электронике",
+   "groups": [
+    2
+   ],
+   "teacher": 11,
+   "size": 20,
+   "lab": true
+  },
+  {
+   "id": 40,
+   "kind": "семинар",
+   "title": "Матанализ",
+   "groups": [
+    3
+   ],
+   "teacher": 6,
+   "size": 25,
+   "lab": false
+  },
+  {
+   "id": 41,
+   "kind": "семинар",
+   "title": "Алгоритмы",
+   "groups": [
+    3
+   ],
+   "teacher": 4,
+   "size": 25,
+   "lab": false
+  },
+  {
+   "id": 42,
+   "kind": "семинар",
+   "title": "Физика",
+   "groups": [
+    3
+   ],
+   "teacher": 9,
+   "size": 25,
+   "lab": false
+  },
+  {
+   "id": 43,
+   "kind": "семинар",
+   "title": "Теория вероятностей",
+   "groups": [
+    3
+   ],
+   "teacher": 7,
+   "size": 25,
+   "lab": false
+  },
+  {
+   "id": 44,
+   "kind": "семинар",
+   "title": "Программирование",
+   "groups": [
+    3
+   ],
+   "teacher": 9,
+   "size": 25,
+   "lab": false
+  },
+  {
+   "id": 45,
+   "kind": "семинар",
+   "title": "Английский",
+   "groups": [
+    3
+   ],
+   "teacher": 6,
+   "size": 25,
+   "lab": false
+  },
+  {
+   "id": 46,
+   "kind": "лабораторная",
+   "title": "Физпрактикум",
+   "groups": [
+    3
+   ],
+   "teacher": 10,
+   "size": 25,
+   "lab": true
+  },
+  {
+   "id": 47,
+   "kind": "лабораторная",
+   "title": "Практикум по электронике",
+   "groups": [
+    3
+   ],
+   "teacher": 11,
+   "size": 25,
+   "lab": true
+  },
+  {
+   "id": 48,
+   "kind": "семинар",
+   "title": "Матанализ",
+   "groups": [
+    4
+   ],
+   "teacher": 7,
+   "size": 23,
+   "lab": false
+  },
+  {
+   "id": 49,
+   "kind": "семинар",
+   "title": "Алгоритмы",
+   "groups": [
+    4
+   ],
+   "teacher": 7,
+   "size": 23,
+   "lab": false
+  },
+  {
+   "id": 50,
+   "kind": "семинар",
+   "title": "Физика",
+   "groups": [
+    4
+   ],
+   "teacher": 6,
+   "size": 23,
+   "lab": false
+  },
+  {
+   "id": 51,
+   "kind": "семинар",
+   "title": "Теория вероятностей",
+   "groups": [
+    4
+   ],
+   "teacher": 7,
+   "size": 23,
+   "lab": false
+  },
+  {
+   "id": 52,
+   "kind": "семинар",
+   "title": "Программирование",
+   "groups": [
+    4
+   ],
+   "teacher": 7,
+   "size": 23,
+   "lab": false
+  },
+  {
+   "id": 53,
+   "kind": "семинар",
+   "title": "Английский",
+   "groups": [
+    4
+   ],
+   "teacher": 9,
+   "size": 23,
+   "lab": false
+  },
+  {
+   "id": 54,
+   "kind": "лабораторная",
+   "title": "Физпрактикум",
+   "groups": [
+    4
+   ],
+   "teacher": 10,
+   "size": 23,
+   "lab": true
+  },
+  {
+   "id": 55,
+   "kind": "лабораторная",
+   "title": "Практикум по электронике",
+   "groups": [
+    4
+   ],
+   "teacher": 11,
+   "size": 23,
+   "lab": true
+  },
+  {
+   "id": 56,
+   "kind": "семинар",
+   "title": "Матанализ",
+   "groups": [
+    5
+   ],
+   "teacher": 5,
+   "size": 24,
+   "lab": false
+  },
+  {
+   "id": 57,
+   "kind": "семинар",
+   "title": "Алгоритмы",
+   "groups": [
+    5
+   ],
+   "teacher": 9,
+   "size": 24,
+   "lab": false
+  },
+  {
+   "id": 58,
+   "kind": "семинар",
+   "title": "Физика",
+   "groups": [
+    5
+   ],
+   "teacher": 5,
+   "size": 24,
+   "lab": false
+  },
+  {
+   "id": 59,
+   "kind": "семинар",
+   "title": "Теория вероятностей",
+   "groups": [
+    5
+   ],
+   "teacher": 5,
+   "size": 24,
+   "lab": false
+  },
+  {
+   "id": 60,
+   "kind": "семинар",
+   "title": "Программирование",
+   "groups": [
+    5
+   ],
+   "teacher": 5,
+   "size": 24,
+   "lab": false
+  },
+  {
+   "id": 61,
+   "kind": "семинар",
+   "title": "Английский",
+   "groups": [
+    5
+   ],
+   "teacher": 9,
+   "size": 24,
+   "lab": false
+  },
+  {
+   "id": 62,
+   "kind": "лабораторная",
+   "title": "Физпрактикум",
+   "groups": [
+    5
+   ],
+   "teacher": 10,
+   "size": 24,
+   "lab": true
+  },
+  {
+   "id": 63,
+   "kind": "лабораторная",
+   "title": "Практикум по электронике",
+   "groups": [
+    5
+   ],
+   "teacher": 11,
+   "size": 24,
+   "lab": true
+  },
+  {
+   "id": 64,
+   "kind": "семинар",
+   "title": "Матанализ",
+   "groups": [
+    6
+   ],
+   "teacher": 5,
+   "size": 20,
+   "lab": false
+  },
+  {
+   "id": 65,
+   "kind": "семинар",
+   "title": "Алгоритмы",
+   "groups": [
+    6
+   ],
+   "teacher": 8,
+   "size": 20,
+   "lab": false
+  },
+  {
+   "id": 66,
+   "kind": "семинар",
+   "title": "Физика",
+   "groups": [
+    6
+   ],
+   "teacher": 7,
+   "size": 20,
+   "lab": false
+  },
+  {
+   "id": 67,
+   "kind": "семинар",
+   "title": "Теория вероятностей",
+   "groups": [
+    6
+   ],
+   "teacher": 7,
+   "size": 20,
+   "lab": false
+  },
+  {
+   "id": 68,
+   "kind": "семинар",
+   "title": "Программирование",
+   "groups": [
+    6
+   ],
+   "teacher": 4,
+   "size": 20,
+   "lab": false
+  },
+  {
+   "id": 69,
+   "kind": "семинар",
+   "title": "Английский",
+   "groups": [
+    6
+   ],
+   "teacher": 7,
+   "size": 20,
+   "lab": false
+  },
+  {
+   "id": 70,
+   "kind": "лабораторная",
+   "title": "Физпрактикум",
+   "groups": [
+    6
+   ],
+   "teacher": 10,
+   "size": 20,
+   "lab": true
+  },
+  {
+   "id": 71,
+   "kind": "лабораторная",
+   "title": "Практикум по электронике",
+   "groups": [
+    6
+   ],
+   "teacher": 11,
+   "size": 20,
+   "lab": true
+  },
+  {
+   "id": 72,
+   "kind": "семинар",
+   "title": "Матанализ",
+   "groups": [
+    7
+   ],
+   "teacher": 4,
+   "size": 23,
+   "lab": false
+  },
+  {
+   "id": 73,
+   "kind": "семинар",
+   "title": "Алгоритмы",
+   "groups": [
+    7
+   ],
+   "teacher": 7,
+   "size": 23,
+   "lab": false
+  },
+  {
+   "id": 74,
+   "kind": "семинар",
+   "title": "Физика",
+   "groups": [
+    7
+   ],
+   "teacher": 8,
+   "size": 23,
+   "lab": false
+  },
+  {
+   "id": 75,
+   "kind": "семинар",
+   "title": "Теория вероятностей",
+   "groups": [
+    7
+   ],
+   "teacher": 9,
+   "size": 23,
+   "lab": false
+  },
+  {
+   "id": 76,
+   "kind": "семинар",
+   "title": "Программирование",
+   "groups": [
+    7
+   ],
+   "teacher": 9,
+   "size": 23,
+   "lab": false
+  },
+  {
+   "id": 77,
+   "kind": "семинар",
+   "title": "Английский",
+   "groups": [
+    7
+   ],
+   "teacher": 5,
+   "size": 23,
+   "lab": false
+  },
+  {
+   "id": 78,
+   "kind": "лабораторная",
+   "title": "Физпрактикум",
+   "groups": [
+    7
+   ],
+   "teacher": 10,
+   "size": 23,
+   "lab": true
+  },
+  {
+   "id": 79,
+   "kind": "лабораторная",
+   "title": "Практикум по электронике",
+   "groups": [
+    7
+   ],
+   "teacher": 11,
+   "size": 23,
+   "lab": true
+  }
+ ]
+}
