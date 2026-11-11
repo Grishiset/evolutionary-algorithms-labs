@@ -1,0 +1,24 @@
+{
+  "_comment": "ЛР3 трек A, вариант 8. Бюджет NSGA-II = pop_size * (generations + 1) = 50 100 вычислений; взвешенная сумма получает тот же бюджет, разделённый на 15 векторов весов. p_mutation = 2/d.",
+  "nsga2": {
+    "pop_size": 100,
+    "generations": 500,
+    "p_crossover": 0.9,
+    "eta_c": 15.0,
+    "eta_m": 20.0,
+    "p_mutation": 0.0714,
+    "init": "uniform",
+    "use_crowding": true
+  },
+  "weighted_sum": {
+    "pop_size": 40,
+    "generations": 500,
+    "p_crossover": 0.9,
+    "eta_c": 15.0,
+    "eta_m": 20.0,
+    "p_mutation": 0.0714,
+    "init": "uniform",
+    "use_crowding": true
+  },
+  "shift_mutation_prob": 0.6
+}
