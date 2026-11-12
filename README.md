@@ -24,7 +24,7 @@ python -m pip install -r requirements.txt
 for d in lab1_zakharov lab2_student_projects lab3_ev_charging_nsga2 lab4_pareto_timetabling; do (cd $d && python -m pytest -q tests); done
 ```
 
-Как запускать эксперименты каждой работы, описано в её `README.md`. Все результаты в папках `results/` получены этими скриптами с указанными seed и воспроизводятся повторным запуском. Проверено на Python 3.13, Linux.
+Как запускать эксперименты каждой работы, описано в её `README.md`. Страница интерактивного выбора расписания ЛР № 4 (`lab4_pareto_timetabling/results/pareto_viewer.html`) на сайте GitHub отображается как исходный код: скачайте файл и откройте его в браузере, интернет не нужен. Все результаты в папках `results/` получены этими скриптами с указанными seed и воспроизводятся повторным запуском. Проверено на Python 3.13, Linux.
 
 ## Общие принципы
 
